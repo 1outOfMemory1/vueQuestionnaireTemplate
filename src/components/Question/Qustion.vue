@@ -1,8 +1,7 @@
 <template>
   <div id="divFather" >
-    <div  >{{message}} </div>
+    <div  style="margin-bottom:  -100px" >{{message}} </div>
     <Radio v-bind:answer="answer"></Radio>
-
   </div>
 </template>
 
